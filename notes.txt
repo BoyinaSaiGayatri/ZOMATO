@@ -1,0 +1,429 @@
+col card mb-4 mr-3
+<ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SignUp</a>
+        </li>
+      </ul>
+      <div class="justify-content-end align-items-end float-right">
+          <button class="btn btn-primary">Login</button>
+          <button class="btn btn-primary">SignUp</button>
+        </div>
+
+        <div class="login">
+  <!--<img src="gmail.png" class="logo">-->
+  <h2>
+    SIGN IN
+  </h2>
+  <button><img src="gmail.png">Sign in with Mail</button>
+  <button><img src="fb.png">Sign in with Facebook</button>
+</div>
+
+
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">Login</h2>
+        <form>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password">
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+          <hr>
+          <p class="text-center">Or sign in with:</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <a href="#" class="btn btn-block btn-outline-primary">
+                <i class="fab fa-facebook-f mr-2"></i>Sign in with Facebook
+              </a>
+            </div>
+            <div class="col-sm-6">
+              <a href="#" class="btn btn-block btn-outline-danger">
+                <i class="fab fa-google mr-2"></i>Sign in with Gmail
+              </a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+
+
+
+<div class="login text-center">
+  <h2>Sign in with</h2>
+  <div class="d-grid gap-2 d-md-block">
+    <button class="btn btn-primary" type="button">Button</button>
+    <button class="btn btn-outline-primary" type="button">Button</button>
+  </div>
+</div>
+
+
+.backimg {
+  width: 90%%;
+  height: 600px;
+  background-image: url(./main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+BOOT CODE:
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="sample.css" />
+    <!--<link href="https://unpkg.com/boxicons@2.1.1./css/boxicons.min.css" rel="stylesheet"/>-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-secondary-subtle">
+      <nav class="navbar bg-tertiary">
+        <div class="container">
+          <!--<a class="navbar-brand" href="#">-->
+            <a class="navbar-brand" href="#"><h2>ZOMATO APPLICATION</h2></a>
+            <!--<img src="https://play-lh.googleusercontent.com/s6NktbBa8r6fpHRUqKYt8ilwvYXi7WCPeL0zhjeXGteoVWkLhomnIt3jiqlWcaCHt9c" alt="logo" width="40" height="30">-->
+          <!--</a>-->
+        </div>
+      </nav>
+      <div class="container">
+      <!--<a class="navbar-brand" href="#"><h2>ZOMATO APPLICATION</h2></a>-->
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        </ul> 
+      
+        <div class="ml-auto">
+          <a href="form.html" class="btn btn-outline-secondary">LOGIN </a>
+        
+        </div>
+     
+    </nav>
+    
+  <div class="backimg">
+    <div id="edureka">
+      <span>e!</span>
+    </div>
+    <div id="heading">
+      <div>Find the best restaurants, cafés, and bars</div>
+    </div>
+    
+    <!--<div class="container text-center text-white">
+      <p><h3>Find the best restaurants, cafés, and bars</h3></p>
+    </div>-->
+    
+      <<div class="conatiner">
+        <div class="row">
+          <div class="col custom-col">
+          <select class="form-control">
+            <option>Please select a location</option>
+            <option>Kormangala</option>
+            <option>Sarjapur Road</option>
+            <option>HSR Layout</option>
+          </select>
+        <!--<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+          Please select a location
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Kormangala</a>
+          <a class="dropdown-item" href="#">Sarjapur Road</a>
+          <a class="dropdown-item" href="#">HSR Layout</a>
+        </div>-->
+      </div>
+    <div class="col custom-col">
+      <div class="dropdown">
+        <select class="form-control">
+          <option>Please select a Restaurant</option>
+          <option>Empire Restaurant</option>
+          <option>CreamStone</option>
+          <option>Punjabi Rasoi</option>
+        </select>
+        <!--<button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+          Please select a Restaurant
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Empire Restaurant</a>
+          <a class="dropdown-item" href="#">CreamStone</a>
+          <a class="dropdown-item" href="#">Punjabi Rasoi</a>
+        </div>-->
+      </div>
+    </div>
+  </div>
+</div>
+    </div>
+        
+    <div class="row mt-2 row-cols-1 row-cols-md-2 row-cols-md-4 justify-content-center g-3">
+    <div class="col-4 col-sm-6 col-md-3">
+      <div class="card mx-auto h-50">
+        <img src="./image5.jpg" class="card-img-top" alt="Breakfast">
+                    <div class="card-body">
+                      <h5 class="card-title">Breakfast</h5>
+                      <p class="card-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                </div>
+           
+                <div class="col-4 col-sm-6 col-md-3">
+                  <div class="card mx-auto h-50">
+                    <img src="./image4.jpg" class="card-img-top" alt="Lunch">
+                    <div class="card-body">
+                      <h5 class="card-title">Lunch</h5>
+                      <p class="card-text">Start your day with exclusive lunch options</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-3">
+                  <div class="card mx-auto h-50">
+                    <img src="./image2.jpg" class="card-img-top" alt="Lunch">
+                    <div class="card-body">
+                      <h5 class="card-title">Snacks</h5>
+                      <p class="card-text">Start your day with exclusive lunch options</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+           
+            <div class="row mt-2 row-cols-1 row-cols-md-2 row-cols-md-4 justify-content-center">
+                <div class="col-4 col-sm-6 col-md-3">
+                  <div class="card mx-auto h-50">
+                    <img src="./image3.jpg" class="card-img-top" alt="Lunch">
+                    <div class="card-body">
+                      <h5 class="card-title">Dinner</h5>
+                      <p class="card-text">Start your day with exclusive lunch options</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-3">
+                  <div class="card mx-auto h-50">
+                    <img src="./image1.jpg" class="card-img-top" alt="Lunch">
+                    <div class="card-body">
+                      <h5 class="card-title">Drinks</h5>
+                      <p class="card-text">Start your day with exclusive lunch options</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4 col-sm-6 col-md-3">
+                  <div class="card mx-auto h-50">
+                    <img src="./image6.jpg" class="card-img-top" alt="Lunch">
+                    <div class="card-body">
+                      <h5 class="card-title">NightLife</h5>
+                      <p class="card-text">Start your day with exclusive lunch options</p>
+                    </div>
+                  </div>
+                </div>
+              </div> 
+            
+              <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#"><i class="bi bi-facebook"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="bi bi-twitter"></i></a></li>
+        <li class="list-inline-item"><a href="#"><i class="bi bi-instagram"></i></a></li>
+      </ul>
+    
+   
+      <span class="text-muted">© 2023 Zomato Application. All rights reserved.</span>
+    </div>
+    
+  </footer>
+
+  <!-- Link Bootstrap JS (required for some features) -->
+  </body>
+</html>
+
+
+
+<a href="#" class="login-button">Log In</a>
+        <a href="#" class="signup-button">Create an account</a>
+
+
+
+ DEEPAK SIR CODE
+
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>Zomato Home Page</title>
+    <link rel="stylesheet" href="sample.css" />
+  </head>
+  <body>
+    <section class="main-section">
+      <header class="main-section-header">
+        <button class="btn">login</button>
+        <button class="btn btn-border">Create Account</button>
+      </header>
+      <div class="brand">
+        <span class="brand-text">e!</span>
+      </div>
+      <p class="sub-title">Find the best restaurants, cafés, and bars</p>
+      <section class="search">
+        <input
+          placeholder="Enter Location"
+          type="text"
+          class="search-location"
+        />
+        <input
+          placeholder="Enter Restaurant"
+          type="text"
+          class="search-restaurant"
+        />
+      </section>
+    </section>
+    <section class="meal-type-main-section">
+      <section class="meal-type-sub-section">
+        <h1 class="meal-type-main-title">Quick Searches</h1>
+        <p class="meal-type-sub-title">Discover restaurants by type of meal</p>
+        <section class="meal-type-list">
+          <article class="meal-type-item">
+            <div class="meal-type-item-img-div">
+              <img
+                class="meal-type-item-img"
+                src="./breakfast.jpg"
+                alt="Breakfast"
+              />
+            </div>
+            <div class="meal-type-item-p-div">
+              <p class="meal-type-item-title">Breakfast</p>
+              <p class="meal-type-item-sub-title">
+                Start your day with exclusive breakfast options
+              </p>
+            </div>
+          </article>
+
+          <!-- 2 -->
+          <article class="meal-type-item">
+            <div class="meal-type-item-img-div">
+              <img
+                class="meal-type-item-img"
+                src="./lunch.jpg"
+                alt="lunch"
+              />
+            </div>
+            <div class="meal-type-item-p-div">
+              <p class="meal-type-item-title">Lunch</p>
+              <p class="meal-type-item-sub-title">
+                Start your day with exclusive lunch options
+              </p>
+            </div>
+          </article>
+          <!-- 3 -->
+          <article class="meal-type-item">
+            <div class="meal-type-item-img-div">
+              <img
+                class="meal-type-item-img"
+                src="./snacks.jpg"
+                alt=""
+              />
+            </div>
+            <div class="meal-type-item-p-div">
+              <p class="meal-type-item-title">Snacks</p>
+              <p class="meal-type-item-sub-title">
+                Start your day with exclusive snacks options
+              </p>
+            </div>
+          </article>
+          <!-- 4 -->
+          <article class="meal-type-item">
+            <div class="meal-type-item-img-div">
+              <img
+                class="meal-type-item-img"
+                src="./drink.jpg"
+                alt="drink"
+              />
+            </div>
+            <div class="meal-type-item-p-div">
+              <p class="meal-type-item-title">Drinks</p>
+              <p class="meal-type-item-sub-title">
+                Start your day with exclusive drinks options
+              </p>
+            </div>
+          </article>
+          <!-- 5 -->
+          <article class="meal-type-item">
+            <div class="meal-type-item-img-div">
+              <img
+                class="meal-type-item-img"
+                src="./dinner.jpg"
+                alt="dinner"
+              />
+            </div>
+            <div class="meal-type-item-p-div">
+              <p class="meal-type-item-title">Dinner</p>
+              <p class="meal-type-item-sub-title">
+                Start your day with exclusive dinner options
+              </p>
+            </div>
+          </article>
+          <!-- 6 -->
+          <article class="meal-type-item">
+            <div class="meal-type-item-img-div">
+              <img
+                class="meal-type-item-img"
+                src="./nightlife.jpg"
+                alt="nightlife"
+              />
+            </div>
+            <div class="meal-type-item-p-div">
+              <p class="meal-type-item-title">Nightlife</p>
+              <p class="meal-type-item-sub-title">
+                Start your day with exclusive nightlife options
+              </p>
+            </div>
+          </article>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
+<!-- &lt;p&gt; -->       
+
+
+
+col-7 col-lg-9 mt-3 mt-lg-3 px-3 px-lg-5 ml-auto
