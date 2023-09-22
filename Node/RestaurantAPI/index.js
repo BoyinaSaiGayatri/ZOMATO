@@ -187,11 +187,52 @@ app.get("/Restaurants", function (req, res) {
   if (stateId) {
     query = { state_id: stateId };
   } else if (mealId) {
-    query = { "Mealtype.mealtype_id": mealId };
+    query = { "mealTypes.mealtype_id": mealId };
   }
 
   db.collection("Restaurantdata")
     .find(query)
+    .toArray((err, result) => {
+      if (err) throw err;
+      res.send(result);
+    });
+});
+
+//filter
+
+app.get("/filter/:mealId", function (req, res) {
+  let query = {};
+  let mealId = Number(req.params.mealId);
+  let cuisineId = Number(req.query.cuisineId);
+  let lcost = Number(req.query.lcost);
+  let hcost = Number(req.query.hcost);
+  let sort = { cost: 1 };
+  if (req.query.sort) {
+    sort = { cost: req.query.sort };
+  }
+
+  if (cuisineId) {
+    query = {
+      "Mealtypes.mealtype_id": mealId,
+      "cuisines.cuisine_id": cuisineId,
+    };
+  } else if (lcost && hcost) {
+    query = {
+      "mealTypes.mealtype_id": mealId,
+      $and: [{ cost: { $gt: lcost, $lt: hcost } }],
+    };
+  } else if (cuisineId && lcost && hcost) {
+    query = {
+      "mealTypes.mealtype_id": mealId,
+      "cuisines.cuisine_id": cuisineId,
+      $and: [{ cost: { $gt: lcost, $lt: hcost } }],
+    };
+  }
+  //-1 => desc
+  //1 => asc
+  db.collection("Restaurantdata")
+    .find(query)
+    .sort(sort)
     .toArray((err, result) => {
       if (err) throw err;
       res.send(result);
